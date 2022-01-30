@@ -1,0 +1,9 @@
+
+# dependencies
+
+/assets/node_modules
+/assets/gulpfile.js
+
+# Mac files
+/assets/.DS_Store
+.DS_Store

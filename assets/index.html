@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c09818cd34.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/script.js"></script>
+</head>
+
+<body>
+    <nav id="nav" class="nav">
+        <div class="nav__menu">
+            <div class="nav__logo">
+                <img src="img/logo 20.svg" alt="logo">
+            </div>
+
+            <div class="nav__list" id="navList">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav__item active"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#workflow" class="nav__link">Workflow</a> </li>
+                    <li class="nav__item"><a href="#webpage" class="nav__link">Portfolio</a> </li>
+                    <li class="nav__item"><a href="#casestudy" class="nav__link">Case study</a> </li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="socials">
+            <a href="https://github.com/Wiolip" target="_blank" class="social__item"><i class="fab fa-github "></i></a>
+            <a href="https://www.instagram.com/myownphotostory" target="_blank" class="social__item"><i
+                    class="fab fa-instagram "></i></a>
+            <a href="https://wiolipcreates.pl" target="_blank" class="social__item"><i
+                    class="fab fa-wordpress "></i></a>
+            <a href="https://www.linkedin.com/in/wioleta-lipinska-41b89352/" target="_blank" class="social__item"><i
+                    class="fab fa-linkedin social__item"></i></a>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+
+    <header id="header" class="header">
+        <div class="header__hero">
+            <h1 class="header__heading">Wiolip<br /> Creates<span class="header__dot">.</span></h1>
+            <hr class="header__spacer">
+            <p class="header__content">I design and code from scratch beautiful and simple things, and I love what I do
+            </p>
+
+
+        </div>
+
+        <div class="header__animation">
+            <ul class="circle">
+                <li class="circle__animation__item"></li>
+                <li class="circle__animation__item"></li>
+                <li class="circle__animation__item"></li>
+                <li class="circle__animation__item"></li>
+                <li class="circle__animation__item"></li>
+                <li class="circle__animation__item"></li>
+                <li class="circle__animation__item"></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <!-- ---- workflow------  -->
+
+    <section id="workflow" class="workflow">
+        <div class="container">
+
+
+            <div>
+                <span class="advanced__number">1.</span>
+                <h2 class="advanced__heading" title="workflow">workflow</h2>
+            </div>
+
+            <div class="row ">
+                <div class="column--4">
+                    <img src="img/logo1.svg" class="workflow__logo" alt="">
+                    <h3>01. Research</h3>
+                    <p class="workflow__content">We will set your expectations and needs. What is your goal? Who do you
+                        want to reach? What do you
+                        offer? </p>
+                </div>
+
+                <div class="column--4">
+                    <img src="img/logo2.svg" class="workflow__logo" alt="">
+                    <h3 clas="workflow__item">02. Design</h3>
+                    <p class="workflow__content">The appearance (colors, font, images), layout (element structure), and,
+                        in some cases, content of
+                        your website.</p>
+                </div>
+                <div class="column--4">
+                    <img src="img/logo3.svg" class="workflow__logo" alt="">
+                    <h3 clas="workflow__item">03. Develop</h3>
+                    <p class="workflow__content">I design easy-to-use websites, aesthetically pleasing, with a focus on
+                        simplicity and mobile
+                        friendly</p>
+                </div>
+
+                <div class="column--4">
+                    <img src="img/logo4.svg" class="workflow__logo" alt="">
+                    <h3 clas="workflow__item">04. SEO</h3>
+                    <p class="workflow__content">Making your content search-friendly matters because it's how you get
+                        more relevant users viewing
+                        your content.</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="column--2">
+                    <h2 class='workflow__heading'>Hi. I'm Wioleta, nice to meet you. Please take a look around!</h2>
+                </div>
+                <div class="column--2">
+                    <p> I am passionate about everything
+                        related to web development.
+                        I like to find inspiration, create moodboards, create mockups and of course I love to code. It
+                        is a great satisfaction to see your code turned into a functional website. My goal is to learn
+                        several programming languages and bring pages to life with animations </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  ------ web page ------ -->
+
+
+    <section id="webpage">
+        <div class="container">
+
+            <div>
+                <span class="advanced__number">2.</span>
+                <h2 class="advanced__heading" title="portfolio">portfolio</h2>
+            </div>
+
+            <div class="row portfolio">
+                <div class="column--3">
+                    <img src="img/mops.jpg" class="portfolio__img" alt="">
+                    <div class="portfolio__image__layer">
+                        <div class="portfolio__img__content">
+                            <h2 class="portfolio__img__title">Travel blog</h2>
+                            <h3 class="portfolio__img__subtitle">Role: UI & Development <br> Copy & SEO</h3>
+                            <a href="https://myownphotostory.pl" target="_blank" class="portfolio__img__link"><button
+                                    class="portfolio__img__btn">Go to site</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column--3">
+                    <img src="img/wioletalip.jpg" class="portfolio__img" alt="">
+                    <div class="portfolio__image__layer">
+                        <div class="portfolio__img__content">
+                            <h2 class="portfolio__img__title">Photography portfolio</h2>
+                            <h3 class="portfolio__img__subtitle">Role: UI & Development</h3>
+                            <a href="https://myownphotostory.pl" target="_blank" class="portfolio__img__link"><button
+                                    class="portfolio__img__btn">Go to site</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column--3">
+                    <img src="img/wiolipcreates.jpg" class="portfolio__img" alt="">
+                    <div class="portfolio__image__layer">
+                        <div class="portfolio__img__content">
+                            <h2 class="portfolio__img__title">Company website</h2>
+                            <h3 class="portfolio__img__subtitle">Role: UI & Development </h3>
+                            <a href="https://wiolipcreates.pl" target="_blank" class="portfolio__img__link"><button
+                                    class="portfolio__img__btn">Go to site</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column--3">
+                    <img src="img/kampery.jpg" class="portfolio__img" alt="">
+                    <div class="portfolio__image__layer">
+                        <div class="portfolio__img__content">
+                            <h2 class="portfolio__img__title">Company website</h2>
+                            <h3 class="portfolio__img__subtitle">Role: UI & Development <br> Copy & SEO</h3>
+                            <a href="https://kamperemwdrodze.pl" target="_blank" class="portfolio__img__link"><button
+                                    class="portfolio__img__btn">Go to site</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column--3">
+                    <img src="img/horyzont.jpg" class="portfolio__img" alt="">
+                    <div class="portfolio__image__layer">
+                        <div class="portfolio__img__content">
+                            <h2 class="portfolio__img__title">Company site</h2>
+                            <h3 class="portfolio__img__subtitle">Role: UI & Development <br /> Copy & SEO</h3>
+                            <a href="https://horyzont.link" target="_blank" class="portfolio__img__link"><button
+                                    class="portfolio__img__btn">Go to site</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column--3">
+                    <img src="img/sklep.jpg" class="portfolio__img" alt="">
+                    <div class="portfolio__image__layer">
+                        <div class="portfolio__img__content">
+                            <h2 class="portfolio__img__title">Shop Woocomerce</h2>
+                            <h3 class="portfolio__img__subtitle"> Role: Development </h3>
+                            <a href="https://shop.myownphotostory.pl" target="_blank"
+                                class="portfolio__img__link"><button class="portfolio__img__btn">Go to site</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ------ cta ------ -->
+
+    <div class="cta">
+        <h2 class="cta__heading">Get ready to turn your ideas into reality</h2>
+    </div>
+
+
+    <section id="casestudy" class="casestudy">
+
+        <div class="container">
+
+            <div>
+                <span class="advanced__number">3.</span>
+                <h2 class="advanced__heading" title="case study">case study</h2>
+            </div>
+
+            <div class="row">
+                <div class="column--2 img-order">
+                    <img src="img/moodboard.jpg" class="casestudy__img" alt="moodboard">
+                </div>
+                <div class="column--2 content">
+                    <h2 class="casestudy__heading">Moodboard</h2>
+                    <p class="casestudy__content">All starts with loose thoughts in your head, remembered images,
+                        tastes, certain ideas and images.
+                        The next step is to put it all on the inspiration board. The juxtaposition of its elements
+                        (colors, photos, graphics, slogans, fonts) creates a certain atmosphere, suggests a specific
+                        style. Finally, a website design is created on the basis of moodboards. <br>
+
+                        Red, apart from the well-known meaning of love, fire or danger, also means joy, passion,
+                        determination, self-confidence, and leadership. When used as an accent, it stimulates people to
+                        make a quick decision. Black is a neutral color. It also symbolizes a high standard and
+                        elegance. The color of individualists. It is associated with strength, seriousness,
+                        professionalism and self-confidence.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column--2 column__order">
+                    <h2 class="casestudy__heading">Advertising campaign</h2>
+                    <h3 class="casestudy__subheading">team work - INCO Get Into Tech</h3>
+                    <p class="casestudy__content">The goal of the project was to create an advertising campaign on
+                        Facebook for the new generation
+                        of the AIR Ton robot-driver. The first step in our project was to research the market using an
+                        anonymous questionnaire consisting of open-ended questions. We thoroughly analyzed the obtained
+                        results, dividing the respondents by age, gender, interest in new technologies, approach to
+                        classic cars, as well as driving conditions and safety. Thanks to a detailed analysis, we
+                        selected 3 target people and prepared advertising campaigns on Facebook.</p>
+                </div>
+                <div class="column--2">
+                    <img src="img/reklma.jpg" class="casestudy__img" alt="kampania reklamowa">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------- about -------------- -->
+
+    <section id="about">
+        <div class="container">
+            <div>
+                <span class="advanced__number">4.</span>
+                <h2 class="advanced__heading" title="about">about</h2>
+            </div>
+
+            <div class="row about">
+                <div class="column--3 column__about pd">
+                    <h2 class="about__heading">Hi! I'm Wioleta. </h2>
+                    <p>For the last 13 years I have been working as a store manager. I feel good at managing a team, I
+                        can manage time, set and achieve goals, and complete projects on time. Despite the fact that I
+                        am a team player, I value my individualism very much. My intuition is often guided in my life
+                        and it rarely fails me. <br>
+                        I left my job to give yourself over creative activities. Currently I'm working as photographer
+                        and developing my coding skills. I also develop my personal brand - WiolipCreates.
+                    </p>
+                </div>
+
+                <div class="column--3  column__about column__order">
+
+                    <img src="img/o-mnie.jpg" class="about__img" alt="about">
+
+                    <div class="about__img__layer" >
+
+                       <h3 class="about__img__title"> I'm Wiolip<br />
+                            and <br>
+                            I Create</h3>
+                    </div>
+
+                </div>
+
+                <div class="column--3 column__about column__about pd">
+                    <h2></h2>
+                    <p>
+                        I love traveling so 4 years ago I started a travel blog on WordPress. This was my first
+                        experience with building pages. <br>
+                        Hundreds of hours dedicated to WordPress, HTML, CSS, many courses, great motivation and
+                        determination allowed me to successfully acquire many useful skills needed to create websites.
+                        Now I study Java... and I learn fast. <br>
+                        I use: HTML, CSS, Bootstrap, Github, Wordpress, Adobe xd, Figma, Ps, Lr, Capture1, Gutenberg
+                        block.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ----- contact ------  -->
+
+    <section id="contact">
+        <div class="container">
+
+            <div>
+                <span class="advanced__number">5.</span>
+                <h2 class="advanced__heading" title="contact">contact</h2>
+            </div>
+
+            <div class="row">
+
+                <div class="column--2 contact__animation">
+
+                    <ul class="animation__triangle">
+                        <li class="animation__triangle__item"></li>
+                        <li class="animation__triangle__item"></li>
+                        <li class="animation__triangle__item"></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="column--2 content">
+                    <h3 class="contact__subheading">Get in touch</h3>
+                    <h2 class="contact__heading">Let's talk about your project</h2>
+
+                    <p class="contact__content">Do you want to hire me? Do you need a new website?
+                        I live in Warsaw (Poland) but I can work remotely from anywhere in the world.
+                        Send me a message:</p>
+
+                    <a href="mailto:hello@wiolipcreates.pl" class="contact__link">hello@wiolipcreates.pl</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ---- FOOTER ----  -->
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__socials">
+                <a href="https://github.com/Wiolip" target="_blank" class="social__item"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/myownphotostory" target="_blank" class="social__item"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://wiolipcreates.pl" target="_blank" class="social__item"><i
+                        class="fab fa-wordpress"></i></a>
+                <a href="https://www.linkedin.com/in/wioleta-lipinska-41b89352/" target="_blank" class="social__item"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+
+            <p class="footer__content"> designed with <i class="fas fa-heart"></i> by <a href="https://wiolipcreates.pl"
+                    class="footer__link">WiolipCreates</a><br />
+
+            </p>
+        </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky", window.scrollY > 0)
+        });
+
+
+
+        var navList = document.getElementById('navList');
+
+        function showMenu() {
+            navList.style.right = "0";
+        }
+
+        function hideMenu() {
+            navList.style.right = "-300px";
+        };
+    </script>
+
+
+
+
+
+</body>
+
+</html>
