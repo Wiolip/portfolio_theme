@@ -1,0 +1,12 @@
+
+# dependencies
+
+node_modules
+gulpfile.js
+
+# Mac files
+css./.DS_Store
+img/.DS_Store
+js/.DS_Store
+scss/.DS_Store
+.DS_Store
