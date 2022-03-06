@@ -10,7 +10,7 @@
 
 // add functionality to admin panel
 
-function wiolip_theme_support(){
+function mops_theme_support(){
 
     add_theme_support('title-tag');    // add dynamic title tag support - custom panel
 
@@ -25,11 +25,25 @@ function wiolip_theme_support(){
     add_image_size('blog-large', 1200, 600, false);
     add_image_size('blog-small', 300, 200, true);
 
+    //remove admin bar from nav
+    add_theme_support( 'admin-bar', array( 'callback' => 'my_admin_bar_css') );
+
     }
-    add_action('after_setup_theme', 'wiolip_theme_support');
+    add_action('after_setup_theme', 'mops_theme_support');
 
 
+// when adminbar is open, change position navsticky
 
+function my_admin_bar_css() { ?>
+    <style>
+        .nav{
+            top:3.2rem;
+        }
+    </style>
+    <?php
+     }
+
+     
 
 // Register menus
 
