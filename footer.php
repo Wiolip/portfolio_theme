@@ -29,22 +29,9 @@
     </footer>
 
 
-    <script type="text/javascript">
 
 
-
-        var navList = document.getElementById('navList');
-
-        function showMenu() {
-            navList.style.right = "0";
-        }
-
-        function hideMenu() {
-            navList.style.right = "-300px";
-        };
-    </script>
-
-
+<script src="assets/js/script.js" type="text/javascript"></script>
 
 <?php wp_footer(); ?>
 
